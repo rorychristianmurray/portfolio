@@ -4,6 +4,10 @@ Welcome to my portfolio application. I am excited you're here... it's still exci
 
 Please reach out. Talk soon.
 
+### dependencies
+
+Material UI core and icons, as well as Material UI styles
+
 ## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
