@@ -1,3 +1,11 @@
+## Welcome
+
+Welcome to my portfolio application. I am excited you're here... it's still exciting to me to share my work, every time.
+
+Please reach out. Talk soon.
+
+## Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
