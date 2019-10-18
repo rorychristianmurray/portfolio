@@ -8,9 +8,19 @@ export default () => {
 
   return (
     <Grid container className={classes.navwrap}>
-      <Link>
+      <Link to="#">
         <Grid item className={classes.navtext}>
-          It's a navbar
+          Home
+        </Grid>
+      </Link>
+      <Link to="/info">
+        <Grid item className={classes.navtext}>
+          Info
+        </Grid>
+      </Link>
+      <Link to="/">
+        <Grid item className={classes.navtext}>
+          Github
         </Grid>
       </Link>
     </Grid>
