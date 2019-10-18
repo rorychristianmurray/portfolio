@@ -7,18 +7,18 @@ export default () => {
   const classes = navStyles();
 
   return (
-    <Grid container className={classes.navwrap}>
-      <Link to="#">
+    <Grid container justify="flex-end" className={classes.navwrap}>
+      <Link to="#" className={classes.navlink}>
         <Grid item className={classes.navtext}>
           Home
         </Grid>
       </Link>
-      <Link to="/info">
+      <Link to="/info" className={classes.navlink}>
         <Grid item className={classes.navtext}>
           Info
         </Grid>
       </Link>
-      <Link to="/">
+      <Link to="/" className={classes.navlink}>
         <Grid item className={classes.navtext}>
           Github
         </Grid>
