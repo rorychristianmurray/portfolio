@@ -12,3 +12,10 @@ export const headbandStyles = makeStyles({
     color: "#F18F01"
   }
 });
+
+export const portfolioStyles = makeStyles({
+  project: {
+    height: 150,
+    background: "#000000"
+  }
+});
