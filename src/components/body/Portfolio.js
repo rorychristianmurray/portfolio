@@ -14,6 +14,7 @@ export default () => {
     <Grid
       container
       justify="center"
+      alignItems="center"
       direction="column"
       className={styles.portfolio}
     >
