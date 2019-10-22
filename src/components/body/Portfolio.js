@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Paper } from "@material-ui/core";
-import Headband from "./Headband";
+// import Headband from "./Headband";
 import Project from "./Project";
 
 export default () => {
