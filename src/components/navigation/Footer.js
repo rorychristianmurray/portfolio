@@ -19,7 +19,7 @@ export default () => {
       </Link>
       <Link to="/" className={classes.navlink}>
         <Grid item className={classes.navtext}>
-          Github
+          Portfolio
         </Grid>
       </Link>
     </Grid>

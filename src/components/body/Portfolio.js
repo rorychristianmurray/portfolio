@@ -16,6 +16,16 @@ export default () => {
           <Project />
         </Paper>
       </Grid>
+      <Grid item>
+        <Paper>
+          <Project />
+        </Paper>
+      </Grid>
+      <Grid item>
+        <Paper>
+          <Project />
+        </Paper>
+      </Grid>
     </Grid>
   );
 };

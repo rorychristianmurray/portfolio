@@ -16,6 +16,13 @@ export const headbandStyles = makeStyles({
 export const portfolioStyles = makeStyles({
   project: {
     height: 150,
-    background: "#000000"
+    background: "#000000",
+    border: "1px solid red"
+  },
+  title: {
+    border: "1px solid red"
+  },
+  projDetails: {
+    border: "1px solid red"
   }
 });
