@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
-import { portfolioStyles } from "./BodyStyles";
+import { portfolioStyles } from "../styles/bodyStyles";
 
 export default props => {
   console.log("Project props", props);

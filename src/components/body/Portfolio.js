@@ -3,7 +3,7 @@ import { Grid, Paper } from "@material-ui/core";
 // import Headband from "./Headband";
 import Project from "./Project";
 import { project } from "../../api/data";
-import { portfolioStyles } from "./BodyStyles";
+import { portfolioStyles } from "../styles/bodyStyles";
 
 export default () => {
   console.log("project", project);

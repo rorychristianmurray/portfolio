@@ -9,7 +9,7 @@ export const project = [
     id: 2,
     title: "Life GPA",
     details:
-      "Life GPA is an app that lets you track your habits across different categories providing real time score scores."
+      "Life GPA is an app that lets you track your habits across different categories providing real time scores."
   },
   {
     id: 3,

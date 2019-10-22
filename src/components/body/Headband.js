@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Paper } from "@material-ui/core";
-import { headbandStyles } from "./BodyStyles";
+import { headbandStyles } from "../styles/bodyStyles";
 
 export default () => {
   const styles = headbandStyles();
