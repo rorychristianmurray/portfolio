@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography } from "@material-ui/core";
+import { Grid, Typography, Button } from "@material-ui/core";
 import { portfolioStyles } from "../styles/bodyStyles";
 
 export default props => {
@@ -26,6 +26,10 @@ export default props => {
         <Typography variant="subtitle1" className={styles.projectDetailsText}>
           {details}
         </Typography>
+      </Grid>
+
+      <Grid item>
+        <Button className={styles.projButton}>Learn More</Button>
       </Grid>
     </Grid>
   );

@@ -24,11 +24,11 @@ export const portfolioStyles = makeStyles({
     // border: "1px solid fuchsia",
     marginTop: 30,
     marginBottom: 30,
-    borderRadius: 25,
-    "&:hover": {
-      boxShadow: "0px 5px 10px #F18F01",
-      transform: "translateX(-5px)"
-    }
+    borderRadius: 25
+    // "&:hover": {
+    //   boxShadow: "0px 5px 10px #F18F01",
+    //   transform: "translateX(-5px)"
+    // }
   },
   title: {
     // border: "1px solid red",
@@ -44,5 +44,13 @@ export const portfolioStyles = makeStyles({
   projectTitleText: {
     color: "#F18F01",
     fontWeight: 800
+  },
+  projButton: {
+    background: "#F18F01",
+    margin: 10,
+    "&:hover": {
+      background: "#F18F01"
+      // color: "#E4572E"
+    }
   }
 });
