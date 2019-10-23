@@ -4,6 +4,16 @@ import { headbandStyles } from "../styles/bodyStyles";
 
 export default () => {
   const styles = headbandStyles();
+
+  const checker = function() {
+    console.log("window", window);
+  };
+
+  const scrollToRef = ref => {
+    window.scrollTo(0, ref);
+    // console.log("window", window);
+  };
+
   return (
     <Paper>
       <Grid
@@ -40,7 +50,12 @@ export default () => {
           </Grid>
         </Grid>
         <Grid item>
-          <Button className={styles.headbandBtn}>Portfolio</Button>
+          <Button
+            className={styles.headbandBtn}
+            onClick={() => scrollToRef(500)}
+          >
+            Portfolio
+          </Button>
         </Grid>
       </Grid>
     </Paper>
