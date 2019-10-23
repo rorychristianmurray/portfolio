@@ -27,7 +27,7 @@ export default props => {
           {details}
         </Typography>
       </Grid>
-      <Link to={`/${id}`} style={{ textDecoration: "none" }}>
+      <Link to={`/project/${id}`} style={{ textDecoration: "none" }}>
         <Grid item>
           <Button className={styles.projButton}>Learn More</Button>
         </Grid>
