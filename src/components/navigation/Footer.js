@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default () => {
   const classes = navStyles();
   return (
-    <Grid container justify="space-around" className={classes.navwrap}>
+    <Grid container justify="space-around" className={classes.navfootie}>
       <Link to="#" className={classes.navlink}>
         <Grid item className={classes.navtext}>
           Home

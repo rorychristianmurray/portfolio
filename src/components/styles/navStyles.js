@@ -14,5 +14,11 @@ export const navStyles = makeStyles({
   },
   navlink: {
     textDecoration: "none"
+  },
+  navfootie: {
+    background: "#000000",
+    borderTop: "2px solid #E4572E",
+    borderRadius: 2,
+    height: 30
   }
 });
