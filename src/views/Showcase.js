@@ -4,7 +4,7 @@ import ProjectShowcase from "../components/body/ProjectShowcase";
 export default props => {
   return (
     <div className="showcase-wrapper">
-      <ProjectShowcase props={props} />
+      <ProjectShowcase {...props} />
     </div>
   );
 };
