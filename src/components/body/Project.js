@@ -1,11 +1,12 @@
 import React from "react";
 import { Grid, Typography, Button } from "@material-ui/core";
 import { portfolioStyles } from "../styles/bodyStyles";
+import { Link } from "react-router-dom";
 
 export default props => {
   console.log("Project props", props);
   const styles = portfolioStyles();
-  const { title, details } = props.project;
+  const { title, details, id } = props.project;
 
   return (
     <Grid
@@ -26,10 +27,11 @@ export default props => {
           {details}
         </Typography>
       </Grid>
-
-      <Grid item>
-        <Button className={styles.projButton}>Learn More</Button>
-      </Grid>
+      <Link to={`/${id}`} style={{ textDecoration: "none" }}>
+        <Grid item>
+          <Button className={styles.projButton}>Learn More</Button>
+        </Grid>
+      </Link>
     </Grid>
   );
 };
