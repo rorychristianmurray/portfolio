@@ -17,6 +17,7 @@ export const portfolioStyles = makeStyles({
   portfolio: {
     // border: "1px solid #F18F01",
     background: "#000000"
+    // border: "1px solid red"
   },
   project: {
     background: "#000000",
@@ -26,10 +27,7 @@ export const portfolioStyles = makeStyles({
     borderRadius: 25,
     "&:hover": {
       boxShadow: "0px 5px 10px #F18F01",
-      transform: "translateX(-5px)",
-      // opacity: 1,
-      // background: "#313639",
-      color: "red"
+      transform: "translateX(-5px)"
     }
   },
   title: {

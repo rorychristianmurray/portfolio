@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Paper } from "@material-ui/core";
+import { Grid, Paper, Button } from "@material-ui/core";
 import { headbandStyles } from "../styles/bodyStyles";
 
 export default () => {
@@ -13,13 +13,25 @@ export default () => {
         alignItems="center"
         className={styles.headband}
       >
-        <Grid container justify="center" item className={styles.headbandcard}>
+        <Grid
+          container
+          item
+          justify="center"
+          item
+          className={styles.headbandcard}
+        >
           <Grid item xs={8} className={styles.headbandtext}>
             Hi. I'm Rory. I'm a Full Stack Human and a Web Developer during
             about 1/2 to 2/3 of the preponderance of my days.
           </Grid>
         </Grid>
-        <Grid container justify="center" item className={styles.headbandcard}>
+        <Grid
+          container
+          item
+          justify="center"
+          item
+          className={styles.headbandcard}
+        >
           <Grid item xs={8} className={styles.headbandtext}>
             I'm really glad you stopped by. I made this site to speak to and
             show a bit of what I like to do. If you think it might intersect a
@@ -27,6 +39,9 @@ export default () => {
             to hear from you (about anything, really) here.
           </Grid>
         </Grid>
+        {/* <Grid item>
+          <Button color="primary">button here</Button>
+        </Grid> */}
       </Grid>
     </Paper>
   );

@@ -11,8 +11,8 @@ export default props => {
     <Grid
       container
       item
-      xs={4}
-      direction="column"
+      xs={5}
+      direction="row"
       justify="center"
       alignItems="center"
       className={styles.project}
