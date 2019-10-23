@@ -40,7 +40,7 @@ export default () => {
           </Grid>
         </Grid>
         <Grid item>
-          <Button>portfolio</Button>
+          <Button className={styles.headbandBtn}>Portfolio</Button>
         </Grid>
       </Grid>
     </Paper>
