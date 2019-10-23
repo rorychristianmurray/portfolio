@@ -67,3 +67,27 @@ export const portfolioStyles = makeStyles({
     }
   }
 });
+
+export const showcaseStyles = makeStyles({
+  project: {
+    height: 300,
+    background: "#000000",
+    border: "1px solid red",
+    paddingTop: 30
+  },
+  title: {
+    // border: "1px solid red",
+    margin: 10
+  },
+  projDetails: {
+    // border: "1px solid red",
+    margin: 10
+  },
+  projectDetailsText: {
+    color: "#F18F01"
+  },
+  projectTitleText: {
+    color: "#F18F01",
+    fontWeight: 800
+  }
+});
