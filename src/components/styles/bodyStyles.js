@@ -10,6 +10,10 @@ export const headbandStyles = makeStyles({
   },
   headbandtext: {
     color: "#F18F01"
+  },
+  line: {
+    background: "red",
+    color: "red"
   }
 });
 
@@ -21,10 +25,10 @@ export const portfolioStyles = makeStyles({
   },
   project: {
     background: "#000000",
-    // border: "1px solid fuchsia",
+    borderTop: "1px solid rgba(228, 87, 46, 0.7)",
     marginTop: 30,
-    marginBottom: 30,
-    borderRadius: 25
+    marginBottom: 30
+    // borderRadius: 25
     // "&:hover": {
     //   boxShadow: "0px 5px 10px #F18F01",
     //   transform: "translateX(-5px)"

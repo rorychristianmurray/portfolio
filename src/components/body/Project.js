@@ -11,18 +11,17 @@ export default props => {
     <Grid
       container
       item
-      xs={5}
-      direction="row"
+      direction="column"
       justify="center"
       alignItems="center"
       className={styles.project}
     >
-      <Grid item className={styles.title}>
+      <Grid item xs={8} className={styles.title}>
         <Typography variant="subtitle1" className={styles.projectTitleText}>
           {title}
         </Typography>
       </Grid>
-      <Grid item className={styles.projDetails}>
+      <Grid item xs={8} className={styles.projDetails}>
         <Typography variant="subtitle1" className={styles.projectDetailsText}>
           {details}
         </Typography>
