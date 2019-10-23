@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Route exact path="/" component={Home} />
-      <Route path="/project" component={Showcase} />
+      <Route path="/project" render={props => <Showcase {...props} />} />
     </div>
   );
 }

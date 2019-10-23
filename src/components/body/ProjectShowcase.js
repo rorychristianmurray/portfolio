@@ -1,10 +1,17 @@
 import React from "react";
-import {Grid} from "@material-ui/core"
+import { Grid } from "@material-ui/core";
 
-export default () => {
+export default props => {
+  console.log("ProjectShowcase props", props);
+
+  const checker = function() {
+    console.log("ProjectShowcase window", window);
+  };
   return (
     <Grid container>
-      <Grid item>Project details incoming</Grid>
+      <Grid item onClick={checker}>
+        Project details incoming
+      </Grid>
     </Grid>
   );
 };
