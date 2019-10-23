@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Paper } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 // import Headband from "./Headband";
 import Project from "./Project";
 import { project } from "../../api/data";
