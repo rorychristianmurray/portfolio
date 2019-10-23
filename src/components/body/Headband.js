@@ -10,7 +10,11 @@ export default () => {
   };
 
   const scrollToRef = ref => {
-    window.scrollTo(0, ref);
+    window.scrollTo({
+      top: ref,
+      left: 0,
+      behavior: "smooth"
+    });
     // console.log("window", window);
   };
 
