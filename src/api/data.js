@@ -13,6 +13,12 @@ export const project = [
   },
   {
     id: 3,
+    title: "Immunization Tracker - Java Back End",
+    details:
+      "I built the back end in Java for the Immunization Tracker app. This includes over 30 endpoints with full CRUD functionality, error handling, docs in Swagger, and authorization utilizing 0Auth2."
+  },
+  {
+    id: 4,
     title: "Exercise App",
     details:
       "Exercise app is a full CRUD application for users to select and manage exercises based on muscle group"

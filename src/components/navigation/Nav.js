@@ -8,7 +8,7 @@ export default () => {
 
   return (
     <Grid container justify="flex-end" className={classes.navwrap}>
-      <Link to="#" className={classes.navlink}>
+      <Link to="/" className={classes.navlink}>
         <Grid item className={classes.navtext}>
           Home
         </Grid>
