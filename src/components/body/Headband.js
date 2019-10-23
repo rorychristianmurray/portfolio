@@ -39,9 +39,9 @@ export default () => {
             to hear from you (about anything, really) here.
           </Grid>
         </Grid>
-        {/* <Grid item>
-          <Button color="primary">button here</Button>
-        </Grid> */}
+        <Grid item>
+          <Button>portfolio</Button>
+        </Grid>
       </Grid>
     </Paper>
   );

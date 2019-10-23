@@ -5,7 +5,9 @@ export const navStyles = makeStyles({
     background: "#000000",
     borderBottom: "2px solid #E4572E",
     borderRadius: 2,
-    height: 30
+    height: 30,
+    position: "fixed",
+    zIndex: 1
   },
   navtext: {
     color: "#F18F01",
