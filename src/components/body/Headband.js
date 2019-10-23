@@ -56,7 +56,7 @@ export default () => {
         <Grid item>
           <Button
             className={styles.headbandBtn}
-            onClick={() => scrollToRef(500)}
+            onClick={() => scrollToRef(400)}
           >
             Portfolio
           </Button>

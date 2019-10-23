@@ -6,6 +6,14 @@ import { Link } from "react-router-dom";
 export default () => {
   const classes = navStyles();
 
+  const scrollToRef = ref => {
+    window.scrollTo({
+      top: ref,
+      left: 0,
+      behavior: "smooth"
+    });
+  };
+
   return (
     <Grid container justify="flex-end" className={classes.navwrap}>
       <Link to="/" className={classes.navlink}>
@@ -19,7 +27,7 @@ export default () => {
         </Grid>
       </Link>
       <Link to="/" className={classes.navlink}>
-        <Grid item className={classes.navtext}>
+        <Grid item className={classes.navtext} onClick={() => scrollToRef(400)}>
           Portfolio
         </Grid>
       </Link>
