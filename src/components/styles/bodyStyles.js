@@ -2,14 +2,27 @@ import { makeStyles } from "@material-ui/styles";
 
 export const headbandStyles = makeStyles({
   headband: {
-    height: 400
+    height: "auto"
     // background: "#000000"
   },
-  headbandcard: {
-    margin: 20
+  headbandcard1: {
+    marginTop: 90,
+    marginBottom: 20
+    // border: "1px solid red"
   },
-  headbandtext: {
+  headbandcard2: {
+    marginTop: 20,
+    marginBottom: 20
+    // border: "1px solid red"
+  },
+  headbandtext1: {
     color: "#F18F01"
+    // marginTop: 40
+    // border: "1px solid red"
+  },
+  headbandtext2: {
+    color: "#F18F01"
+    // border: "1px solid red"
     // marginTop: 40
   },
   line: {
@@ -19,9 +32,14 @@ export const headbandStyles = makeStyles({
   headbandBtn: {
     background: "#F18F01",
     marginTop: 50,
+    marginBottom: 100,
+    textDecoration: "none",
     "&:hover": {
       background: "#F18F01"
       // color: "#E4572E"
+    },
+    headbandLink: {
+      textDecoration: "none"
     }
   }
 });
