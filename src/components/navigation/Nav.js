@@ -26,7 +26,7 @@ export default () => {
           Info
         </Grid>
       </Link>
-      <Link to="/" className={classes.navlink}>
+      <Link to="/portfolio" className={classes.navlink}>
         <Grid item className={classes.navtext} onClick={() => scrollToRef(400)}>
           Portfolio
         </Grid>

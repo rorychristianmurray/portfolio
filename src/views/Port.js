@@ -1,10 +1,14 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import Nav from "../components/navigation/Nav";
+import Footer from "../components/navigation/Footer";
+import Portfolio from "../components/body/Portfolio";
 
 export default function Port() {
   return (
-    <Grid>
-      <Grid style={{ color: "white" }}>It worked</Grid>
-    </Grid>
+    <>
+      <Nav />
+      <Portfolio />
+      <Footer />
+    </>
   );
 }

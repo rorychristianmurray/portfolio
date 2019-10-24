@@ -7,7 +7,7 @@ export default () => {
   const classes = navStyles();
   return (
     <Grid container justify="space-around" className={classes.navfootie}>
-      <Link to="#" className={classes.navlink}>
+      <Link to="/" className={classes.navlink}>
         <Grid item className={classes.navtext}>
           Home
         </Grid>
@@ -17,7 +17,7 @@ export default () => {
           Info
         </Grid>
       </Link>
-      <Link to="/" className={classes.navlink}>
+      <Link to="/portfolio" className={classes.navlink}>
         <Grid item className={classes.navtext}>
           Portfolio
         </Grid>

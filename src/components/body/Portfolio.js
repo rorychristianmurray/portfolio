@@ -8,21 +8,17 @@ import { portfolioStyles } from "../styles/bodyStyles";
 export default props => {
   const styles = portfolioStyles();
 
-  if (props.portOpen) {
-    return (
-      <Grid
-        container
-        justify="center"
-        alignItems="center"
-        direction="column"
-        className={styles.portfolio}
-      >
-        {project.map(project => {
-          return <Project project={project} key={project.id} />;
-        })}
-      </Grid>
-    );
-  } else {
-    return <div></div>;
-  }
+  return (
+    <Grid
+      container
+      justify="center"
+      alignItems="center"
+      direction="column"
+      className={styles.portfolio}
+    >
+      {project.map(project => {
+        return <Project project={project} key={project.id} />;
+      })}
+    </Grid>
+  );
 };
