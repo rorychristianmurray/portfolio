@@ -2,8 +2,8 @@ import { makeStyles } from "@material-ui/styles";
 
 export const headbandStyles = makeStyles({
   headband: {
-    height: 400,
-    background: "#000000"
+    height: 400
+    // background: "#000000"
   },
   headbandcard: {
     margin: 20
@@ -29,11 +29,11 @@ export const headbandStyles = makeStyles({
 export const portfolioStyles = makeStyles({
   portfolio: {
     // border: "1px solid #F18F01",
-    background: "#000000"
+    // background: "#000000"
     // border: "1px solid red"
   },
   project: {
-    background: "#000000",
+    // background: "#000000",
     borderTop: "1px solid rgba(228, 87, 46, 0.7)",
     marginTop: 30,
     marginBottom: 30
@@ -71,7 +71,7 @@ export const portfolioStyles = makeStyles({
 export const showcaseStyles = makeStyles({
   project: {
     height: 300,
-    background: "#000000",
+    // background: "#000000",
     border: "1px solid red",
     paddingTop: 30
   },

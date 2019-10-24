@@ -8,6 +8,12 @@ export default props => {
   const [showcase, setShowcase] = React.useState(
     project.filter(project => project.id === id)[0]
   );
+
+  const deleteMeLater = () => {
+    setId("");
+    setShowcase("");
+  };
+
   const styles = showcaseStyles();
 
   const { title, details } = showcase;
@@ -16,6 +22,7 @@ export default props => {
   console.log("ProjectShowcase id", id);
   console.log("ProjectShowcase project", project);
   console.log("ProjectShowcase showcase", showcase);
+  console.log("ProjectShowcase deleteMeLater", deleteMeLater);
 
   return (
     <Grid
@@ -34,6 +41,9 @@ export default props => {
         <Typography variant="subtitle1" className={styles.projectDetailsText}>
           {details}
         </Typography>
+      </Grid>
+      <Grid item>
+        <Button>Code</Button>
       </Grid>
     </Grid>
   );
