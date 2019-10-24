@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./views/Home";
 import Showcase from "./views/Showcase";
 import Port from "./views/Port";
-import InfoView from "./views/Port";
+import InfoView from "./views/InfoView";
 import { Route } from "react-router-dom";
 
 import "./App.css";
