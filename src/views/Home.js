@@ -12,7 +12,7 @@ export default () => {
     <div className="home-wrapper">
       <Nav />
       <Headband portOpen={portOpen} setPortIsOpen={setPortIsOpen} />
-      <Portfolio />
+      <Portfolio portOpen={portOpen} />
       <Footer />
     </div>
   );

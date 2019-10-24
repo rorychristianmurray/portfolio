@@ -44,7 +44,6 @@ export default props => {
         <Button
           className={styles.headbandBtn}
           onClick={() => {
-            scrollToRef(400);
             togglePort();
           }}
         >

@@ -76,12 +76,10 @@ export const showcaseStyles = makeStyles({
     paddingTop: 30
   },
   title: {
-    // border: "1px solid red",
     marginTop: 10,
     marginBottom: -40
   },
   projDetails: {
-    // border: "1px solid red",
     marginBottom: 10
   },
   projectDetailsText: {

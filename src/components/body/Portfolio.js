@@ -5,20 +5,24 @@ import Project from "./Project";
 import { project } from "../../api/data";
 import { portfolioStyles } from "../styles/bodyStyles";
 
-export default () => {
+export default props => {
   const styles = portfolioStyles();
 
-  return (
-    <Grid
-      container
-      justify="center"
-      alignItems="center"
-      direction="column"
-      className={styles.portfolio}
-    >
-      {project.map(project => {
-        return <Project project={project} key={project.id} />;
-      })}
-    </Grid>
-  );
+  if (props.portOpen) {
+    return (
+      <Grid
+        container
+        justify="center"
+        alignItems="center"
+        direction="column"
+        className={styles.portfolio}
+      >
+        {project.map(project => {
+          return <Project project={project} key={project.id} />;
+        })}
+      </Grid>
+    );
+  } else {
+    return <div></div>;
+  }
 };
