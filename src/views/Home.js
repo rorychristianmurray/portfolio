@@ -11,7 +11,7 @@ export default () => {
   return (
     <div className="home-wrapper">
       <Nav />
-      <Headband setPortIsOpen={setPortIsOpen} />
+      <Headband portOpen={portOpen} setPortIsOpen={setPortIsOpen} />
       <Portfolio />
       <Footer />
     </div>

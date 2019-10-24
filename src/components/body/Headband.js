@@ -4,6 +4,11 @@ import { headbandStyles } from "../styles/bodyStyles";
 
 export default props => {
   const styles = headbandStyles();
+  console.log("Headband props", props);
+
+  const togglePort = () => {
+    props.setPortIsOpen(!props.portOpen);
+  };
 
   const scrollToRef = ref => {
     window.scrollTo({
@@ -11,7 +16,6 @@ export default props => {
       left: 0,
       behavior: "smooth"
     });
-    // console.log("window", window);
   };
 
   return (
@@ -37,7 +41,13 @@ export default props => {
         </Grid>
       </Grid>
       <Grid item>
-        <Button className={styles.headbandBtn} onClick={() => scrollToRef(400)}>
+        <Button
+          className={styles.headbandBtn}
+          onClick={() => {
+            scrollToRef(400);
+            togglePort();
+          }}
+        >
           Portfolio
         </Button>
       </Grid>
