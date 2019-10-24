@@ -6,8 +6,6 @@ import { project } from "../../api/data";
 import { portfolioStyles } from "../styles/bodyStyles";
 
 export default () => {
-  console.log("project", project);
-
   const styles = portfolioStyles();
 
   return (
