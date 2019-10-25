@@ -2,7 +2,8 @@ import { makeStyles } from "@material-ui/styles";
 
 export const headbandStyles = makeStyles({
   headband: {
-    height: "auto"
+    height: "auto",
+    fontFamily: "American Typewriter"
     // background: "#000000"
   },
   headbandcard1: {
@@ -17,15 +18,9 @@ export const headbandStyles = makeStyles({
   },
   headbandtext1: {
     color: "#F18F01"
-    // marginTop: 40
-    // border: "1px solid red"
   },
   headbandtext2: {
     color: "#F18F01"
-    // // border: "1px solid red"
-    // // marginTop: 40
-    // height: 200,
-    // border: "10px solid red"
   },
   line: {
     background: "red",
@@ -36,6 +31,7 @@ export const headbandStyles = makeStyles({
     marginTop: 50,
     marginBottom: 100,
     textDecoration: "none",
+    // fontFamily: "American Typewriter",
     "&:hover": {
       background: "#F18F01"
       // color: "#E4572E"
@@ -61,7 +57,8 @@ export const portfolioStyles = makeStyles({
     // background: "#000000",
     borderTop: "1px solid rgba(228, 87, 46, 0.7)",
     marginTop: 30,
-    marginBottom: 30
+    marginBottom: 30,
+    fontFamily: "American Typewriter"
     // borderRadius: 25
     // "&:hover": {
     //   boxShadow: "0px 5px 10px #F18F01",
@@ -77,11 +74,13 @@ export const portfolioStyles = makeStyles({
     margin: 10
   },
   projectDetailsText: {
-    color: "#F18F01"
+    color: "#F18F01",
+    fontFamily: "American Typewriter"
   },
   projectTitleText: {
     color: "#F18F01",
-    fontWeight: 800
+    fontWeight: 800,
+    fontFamily: "American Typewriter"
   },
   projButton: {
     background: "#F18F01",
@@ -167,11 +166,3 @@ export const infoStyles = makeStyles({
     }
   }
 });
-
-// style={{ height: 350 }}
-
-/*
-<Grid item className={styles.tryAgain}>
-Text
-<img src={murrpic} />
-</Grid> */

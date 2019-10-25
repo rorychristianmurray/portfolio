@@ -7,7 +7,8 @@ export const navStyles = makeStyles({
     borderRadius: 2,
     height: 30,
     position: "fixed",
-    zIndex: 1
+    zIndex: 1,
+    fontFamily: "American Typewriter"
   },
   navtext: {
     color: "#F18F01",
