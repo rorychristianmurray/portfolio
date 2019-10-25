@@ -20,7 +20,7 @@ export default props => {
         <img src={murrpic} />
       </Grid>
 
-      <Grid item className={styles.infocard2}>
+      <Grid item xs={6} className={styles.infocard2}>
         Hi. I'm Rory Murray. I'm a Full Stack Web Developer with a background in
         finance and global markets. My passion is in building tools that help
         bring people financial sovereignty, or reduce frictions they have in

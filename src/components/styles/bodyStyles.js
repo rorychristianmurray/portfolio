@@ -123,13 +123,13 @@ export const infoStyles = makeStyles({
   infocard1: {
     marginTop: 70,
     marginBottom: 20
-    // border: "1px solid red"
+    // border: "2px solid orange"
   },
   infocard2: {
     marginTop: 20,
     marginBottom: 20,
     color: "#F18F01"
-    // border: "5px solid orange",
+    // border: "2px solid orange"
   },
   infotext1: {
     color: "#F18F01"
