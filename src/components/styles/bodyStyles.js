@@ -22,8 +22,10 @@ export const headbandStyles = makeStyles({
   },
   headbandtext2: {
     color: "#F18F01"
-    // border: "1px solid red"
-    // marginTop: 40
+    // // border: "1px solid red"
+    // // marginTop: 40
+    // height: 200,
+    // border: "10px solid red"
   },
   line: {
     background: "red",
@@ -40,6 +42,11 @@ export const headbandStyles = makeStyles({
     },
     headbandLink: {
       textDecoration: "none"
+    },
+    pic: {
+      height: 200,
+      width: 100,
+      border: "10px solid red"
     }
   }
 });
@@ -108,3 +115,63 @@ export const showcaseStyles = makeStyles({
     fontWeight: 800
   }
 });
+
+export const infoStyles = makeStyles({
+  infoband: {
+    height: "auto"
+    // border: "2px solid red"
+  },
+  infocard1: {
+    marginTop: 70,
+    marginBottom: 20
+    // border: "1px solid red"
+  },
+  infocard2: {
+    marginTop: 20,
+    marginBottom: 20,
+    color: "#F18F01"
+    // border: "5px solid orange",
+  },
+  infotext1: {
+    color: "#F18F01"
+    // border: "1px solid red"
+  },
+  headbandtext2: {
+    color: "#F18F01"
+    // border: "1px solid red"
+  },
+
+  line: {
+    background: "red",
+    color: "red"
+  },
+  headbandBtn: {
+    background: "#F18F01",
+    marginTop: 50,
+    marginBottom: 100,
+    textDecoration: "none",
+    "&:hover": {
+      background: "#F18F01"
+    },
+    headbandLink: {
+      textDecoration: "none"
+    },
+    murrpic: {
+      margin: 50
+      // height: 350,
+      // // width: 100,
+      // border: "10px solid red"
+    },
+    tryAgain: {
+      // border: "2px solid red"
+    }
+  }
+});
+
+// style={{ height: 350 }}
+
+/*
+<Grid item className={styles.tryAgain}>
+Text
+<img src={murrpic} />
+</Grid> */

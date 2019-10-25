@@ -1,12 +1,12 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
 import { Grid, Button } from "@material-ui/core";
-import { headbandStyles } from "../styles/bodyStyles";
+import { infoStyles } from "../styles/bodyStyles";
 import { Link } from "react-router-dom";
+import murrpic from "../../assets/murraypic2.jpg";
 
 export default props => {
-  const styles = headbandStyles();
-  console.log("Info props", 1 + 1);
+  const styles = infoStyles();
 
   return (
     <Grid
@@ -14,19 +14,21 @@ export default props => {
       justify="center"
       direction="column"
       alignItems="center"
-      className={styles.headband}
+      className={styles.infoband}
     >
-      <Grid container item justify="center" className={styles.headbandcard1}>
-        <Grid item xs={8} className={styles.headbandtext1}>
-          Hi. I'm Rory. I'm a Full Stack Web Developer.
-        </Grid>
+      <Grid item className={styles.infocard1}>
+        <img src={murrpic} />
       </Grid>
-      <Grid container item justify="center" className={styles.headbandcard2}>
-        <Grid item xs={8} className={styles.headbandtext2}>
-          Lorem Ipsum
-        </Grid>
+
+      <Grid item className={styles.infocard2}>
+        Hi. I'm Rory Murray. I'm a Full Stack Web Developer with a background in
+        finance and global markets. My passion is in building tools that help
+        bring people financial sovereignty, or reduce frictions they have in
+        building communities, particularly at a local level. I build across the
+        stack, but have a particular interest in blockchain and back end
+        development opportunities.
       </Grid>
-      <Grid item>
+      {/* <Grid item>
         <Link
           to="/portfolio"
           className={styles.headbandLink}
@@ -34,7 +36,7 @@ export default props => {
         >
           <Button className={styles.headbandBtn}>Portfolio</Button>
         </Link>
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 };
