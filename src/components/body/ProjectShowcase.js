@@ -9,11 +9,6 @@ export default props => {
     project.filter(project => project.id === id)[0]
   );
 
-  const deleteMeLater = () => {
-    setId("");
-    setShowcase("");
-  };
-
   const styles = showcaseStyles();
 
   const { title, details } = showcase;
@@ -22,28 +17,33 @@ export default props => {
   console.log("ProjectShowcase id", id);
   console.log("ProjectShowcase project", project);
   console.log("ProjectShowcase showcase", showcase);
-  console.log("ProjectShowcase deleteMeLater", deleteMeLater);
 
   return (
     <Grid
       container
       direction="column"
-      justify="center"
+      // justify="center"
       alignItems="center"
       className={styles.project}
     >
-      <Grid item xs={5} className={styles.title}>
+      <Grid
+        container
+        justify="center"
+        alignItems="center"
+        item
+        className={styles.title}
+      >
         <Typography variant="subtitle1" className={styles.projectTitleText}>
           {title}
         </Typography>
       </Grid>
-      <Grid item xs={5} className={styles.projDetails}>
+      <Grid item className={styles.projDetails}>
         <Typography variant="subtitle1" className={styles.projectDetailsText}>
           {details}
         </Typography>
       </Grid>
       <Grid item>
-        <Button>Code</Button>
+        <Button className={styles.projBtn}>Code</Button>
       </Grid>
     </Grid>
   );

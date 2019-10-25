@@ -9,12 +9,10 @@ export const headbandStyles = makeStyles({
   headbandcard1: {
     marginTop: 90,
     marginBottom: 20
-    // border: "1px solid red"
   },
   headbandcard2: {
     marginTop: 20,
     marginBottom: 20
-    // border: "1px solid red"
   },
   headbandtext1: {
     color: "#F18F01"
@@ -48,11 +46,6 @@ export const headbandStyles = makeStyles({
 });
 
 export const portfolioStyles = makeStyles({
-  portfolio: {
-    // border: "1px solid #F18F01",
-    // background: "#000000"
-    // border: "1px solid red"
-  },
   project: {
     // background: "#000000",
     borderTop: "1px solid rgba(228, 87, 46, 0.7)",
@@ -94,50 +87,64 @@ export const portfolioStyles = makeStyles({
 
 export const showcaseStyles = makeStyles({
   project: {
-    height: 300,
+    // border: "1px solid red",
+    height: 500,
     // background: "#000000",
-    border: "1px solid red",
-    paddingTop: 30
+    paddingTop: 30,
+    fontFamily: "American Typewriter"
   },
   title: {
     marginTop: 10,
-    marginBottom: -40
+    // marginBottom: -40,
+    // border: "1px solid red",
+    maxWidth: "40%",
+    marginBottom: 30
   },
   projDetails: {
+    maxWidth: "40%",
     marginBottom: 10
-  },
-  projectDetailsText: {
-    color: "#F18F01"
+    // border: "1px solid red",
   },
   projectTitleText: {
     color: "#F18F01",
-    fontWeight: 800
+    fontWeight: 800,
+    fontFamily: "American Typewriter"
+  },
+  projectDetailsText: {
+    color: "#F18F01",
+    fontFamily: "American Typewriter"
+  },
+  projBtn: {
+    // border: "1px solid red",
+    background: "#F18F01",
+    margin: 10,
+    paddingLeft: 20,
+    paddingRight: 20,
+    "&:hover": {
+      background: "#F18F01"
+      // color: "#E4572E"
+    }
   }
 });
 
 export const infoStyles = makeStyles({
   infoband: {
     height: "auto"
-    // border: "2px solid red"
   },
   infocard1: {
     marginTop: 70,
     marginBottom: 20
-    // border: "2px solid orange"
   },
   infocard2: {
     marginTop: 20,
     marginBottom: 20,
     color: "#F18F01"
-    // border: "2px solid orange"
   },
   infotext1: {
     color: "#F18F01"
-    // border: "1px solid red"
   },
   headbandtext2: {
     color: "#F18F01"
-    // border: "1px solid red"
   },
 
   line: {
@@ -157,12 +164,6 @@ export const infoStyles = makeStyles({
     },
     murrpic: {
       margin: 50
-      // height: 350,
-      // // width: 100,
-      // border: "10px solid red"
-    },
-    tryAgain: {
-      // border: "2px solid red"
     }
   }
 });
