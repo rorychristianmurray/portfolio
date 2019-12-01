@@ -1,5 +1,8 @@
 import { makeStyles } from "@material-ui/styles";
 
+const vaporpink = "#ff71ce"
+const vaporpurple = "#b967ff"
+
 export const headbandStyles = makeStyles({
   headband: {
     height: "auto",
@@ -15,10 +18,12 @@ export const headbandStyles = makeStyles({
     marginBottom: 20
   },
   headbandtext1: {
-    color: "#F18F01"
+    // color: "#F18F01",
+    color: vaporpink
   },
   headbandtext2: {
-    color: "#F18F01"
+    // color: "#F18F01",
+    color: vaporpink
   },
   line: {
     background: "red",
