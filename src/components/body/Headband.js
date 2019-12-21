@@ -48,7 +48,7 @@ export default props => {
           className={styles.headbandLink}
           style={{ textDecoration: "none" }}
         >
-          <Button className={styles.headbandBtn}>Portfolio</Button>
+          <Button className={styles.headbandBtn}>cd murray/portfolio</Button>
         </Link>
       </Grid>
     </Grid>
