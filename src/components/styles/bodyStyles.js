@@ -30,14 +30,15 @@ export const headbandStyles = makeStyles({
     color: "red"
   },
   headbandBtn: {
-    background: "#F18F01",
+    background: "#000000",
+    color: "#00ff00",
     marginTop: 50,
     marginBottom: 100,
     textDecoration: "none",
     // fontFamily: "American Typewriter",
     "&:hover": {
-      background: "#F18F01"
-      // color: "#E4572E"
+      background: "#00ff00",
+      color: "#000000"
     },
     headbandLink: {
       textDecoration: "none"
