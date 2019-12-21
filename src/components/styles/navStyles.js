@@ -3,16 +3,16 @@ import { makeStyles } from "@material-ui/styles";
 export const navStyles = makeStyles({
   navwrap: {
     background: "#000000",
-    borderBottom: "2px solid #E4572E",
+    borderBottom: "2px solid #00ff00",
     borderRadius: 2,
     height: 30,
     position: "fixed",
     zIndex: 1,
-    fontFamily: "American Typewriter"
+    fontFamily: "Classic Console",
   },
   navtext: {
-    color: "#F18F01",
-    // border: "1px solid #E4572E",
+    color: "#00ff00",
+    fontSize: "1.8rem",
     marginRight: 30
   },
   navlink: {
