@@ -28,7 +28,7 @@ export default props => {
         bring people financial sovereignty, or reduce frictions they have in
         building communities, particularly at a local level. I build across the
         stack, but have a particular interest in blockchain and back end
-        development opportunities. I am currently seeking opportunities.
+        development opportunities. I can be reached at rory.christian.murray@gmail.com.
         </Typography>
       </Grid>
       {/* <Grid item>
