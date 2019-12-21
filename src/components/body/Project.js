@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 export default props => {
   // console.log("Project props", props);
+  console.log(props)
   const styles = portfolioStyles();
-  const { title, details, id } = props.project;
-
+  const { title, details, id, git } = props.project;
   return (
     <Grid
       container
@@ -27,11 +27,14 @@ export default props => {
           {details}
         </Typography>
       </Grid>
-      <Link to={`/project/${id}`} style={{ textDecoration: "none" }}>
+      {/* <Link to={`/project/${id}`} style={{ textDecoration: "none" }}> */}
+      <a href={git}style={{ textDecoration: "none" }}>
+
         <Grid item>
           <Button className={styles.projButton}>Learn More</Button>
         </Grid>
-      </Link>
+      </a>
+      {/* </Link> */}
     </Grid>
   );
 };

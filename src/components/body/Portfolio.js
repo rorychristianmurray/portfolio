@@ -7,6 +7,8 @@ import { portfolioStyles } from "../styles/bodyStyles";
 
 export default props => {
   const styles = portfolioStyles();
+  console.log(`props : ${props}`)
+  console.log(`props : ${project}`)
 
   return (
     <Grid

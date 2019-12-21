@@ -55,39 +55,38 @@ export const headbandStyles = makeStyles({
 export const portfolioStyles = makeStyles({
   project: {
     // background: "#000000",
-    borderTop: "1px solid rgba(228, 87, 46, 0.7)",
+    borderTop: "1px solid rgba(0, 255, 0, 0.7)",
     marginTop: 30,
     marginBottom: 30,
-    fontFamily: "American Typewriter"
-    // borderRadius: 25
-    // "&:hover": {
-    //   boxShadow: "0px 5px 10px #F18F01",
-    //   transform: "translateX(-5px)"
-    // }
+    fontFamily: "Classic Console",
+
   },
   title: {
-    // border: "1px solid red",
     margin: 10
   },
   projDetails: {
-    // border: "1px solid red",
     margin: 10
   },
   projectDetailsText: {
-    color: "#F18F01",
-    fontFamily: "American Typewriter"
+    color: "#00ff00",
+    fontFamily: "Classic Console",
+    fontSize: "1.4rem"
   },
   projectTitleText: {
-    color: "#F18F01",
+    color: "#00ff00",
     fontWeight: 800,
-    fontFamily: "American Typewriter"
+    fontFamily: "Classic Console",
+    fontSize: "1.8rem"
   },
   projButton: {
-    background: "#F18F01",
+    background: "#000000",
+    color: "#00ff00",
+    fontFamily: "Classic Console",
     margin: 10,
+    fontSize: "1.8rem",
     "&:hover": {
-      background: "#F18F01"
-      // color: "#E4572E"
+      background: "#00ff00",
+      color: "#000000"
     }
   }
 });
@@ -102,15 +101,14 @@ export const showcaseStyles = makeStyles({
   },
   title: {
     marginTop: 10,
-    // marginBottom: -40,
-    // border: "1px solid red",
+
     maxWidth: "40%",
     marginBottom: 30
   },
   projDetails: {
     maxWidth: "40%",
     marginBottom: 10
-    // border: "1px solid red",
+
   },
   projectTitleText: {
     color: "#F18F01",
@@ -127,6 +125,7 @@ export const showcaseStyles = makeStyles({
     margin: 10,
     paddingLeft: 20,
     paddingRight: 20,
+    textDecoration: "none",
     "&:hover": {
       background: "#F18F01"
       // color: "#E4572E"

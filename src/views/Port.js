@@ -8,7 +8,7 @@ export default function Port() {
     <>
       <Nav />
       <Portfolio />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
