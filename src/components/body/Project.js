@@ -31,7 +31,7 @@ export default props => {
       <a href={git}style={{ textDecoration: "none" }}>
 
         <Grid item>
-          <Button className={styles.projButton}>Learn More</Button>
+          <Button className={styles.projButton}>cd murray/learn_more</Button>
         </Grid>
       </a>
       {/* </Link> */}

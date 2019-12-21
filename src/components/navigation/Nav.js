@@ -18,17 +18,17 @@ export default () => {
     <Grid container justify="flex-end" className={classes.navwrap}>
       <Link to="/" className={classes.navlink}>
         <Grid item className={classes.navtext}>
-          Home
+          10 HOME
         </Grid>
       </Link>
       <Link to="/info" className={classes.navlink}>
         <Grid item className={classes.navtext}>
-          Info
+          20 INFO
         </Grid>
       </Link>
       <Link to="/portfolio" className={classes.navlink}>
         <Grid item className={classes.navtext} onClick={() => scrollToRef(0)}>
-          Portfolio
+          30 PORTFOLIO
         </Grid>
       </Link>
     </Grid>
