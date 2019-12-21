@@ -128,14 +128,16 @@ export const showcaseStyles = makeStyles({
     textDecoration: "none",
     "&:hover": {
       background: "#F18F01"
-      // color: "#E4572E"
+    
     }
   }
 });
 
 export const infoStyles = makeStyles({
   infoband: {
-    height: "auto"
+    height: "auto",
+    fontFamily: "Classic Console"
+
   },
   infocard1: {
     marginTop: 70,
@@ -144,13 +146,15 @@ export const infoStyles = makeStyles({
   infocard2: {
     marginTop: 20,
     marginBottom: 20,
-    color: "#F18F01"
+    color: "#00ff00",
+    fontSize: "1.4rem",
+    fontFamily: "Classic Console",
   },
   infotext1: {
-    color: "#F18F01"
+    color: "#00ff00"
   },
   headbandtext2: {
-    color: "#F18F01"
+    color: "#00ff00"
   },
 
   line: {
