@@ -1,13 +1,11 @@
 import { makeStyles } from "@material-ui/styles";
 
-const vaporpink = "#ff71ce"
-const vaporpurple = "#b967ff"
+
 
 export const headbandStyles = makeStyles({
   headband: {
     height: "auto",
-    fontFamily: "American Typewriter"
-    // background: "#000000"
+    fontFamily: "Classic Console"
   },
   headbandcard1: {
     marginTop: 90,
@@ -19,11 +17,12 @@ export const headbandStyles = makeStyles({
   },
   headbandtext1: {
     // color: "#F18F01",
-    color: vaporpink
+    color: "#00ff00",
+    fontSize: "1.8rem"
   },
   headbandtext2: {
-    // color: "#F18F01",
-    color: vaporpink
+    color: "#00ff00",
+    fontSize: "1.8rem"
   },
   line: {
     background: "red",
@@ -35,6 +34,8 @@ export const headbandStyles = makeStyles({
     marginTop: 50,
     marginBottom: 100,
     textDecoration: "none",
+    fontFamily: "Classic Console",
+    fontSize: "1.8rem",
     // fontFamily: "American Typewriter",
     "&:hover": {
       background: "#00ff00",
