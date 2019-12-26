@@ -5,6 +5,10 @@ import { infoStyles } from "../styles/bodyStyles";
 // import { Link } from "react-router-dom";
 import murrpic from "../../assets/murraypic2.jpg";
 
+
+// maybe do a running stock ticker at the bottom??
+
+
 export default props => {
   const styles = infoStyles();
 
