@@ -37,7 +37,7 @@ export default props => {
       <Grid container item justify="center" className={styles.headbandcard2}>
         <Grid item xs={8} className={styles.headbandtext2}>
           I'm really glad you stopped by. I made this site to speak to and show
-          a bit of what I like to do. If you think it might intersect a bit with
+          a bit of what I like to do. If you think it might intersect with
           what you like to do, or you just wanna know more I'd love to hear from
           you.
         </Grid>

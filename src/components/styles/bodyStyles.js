@@ -144,8 +144,15 @@ export const infoStyles = makeStyles({
     marginBottom: 20
   },
   infocard2: {
-    marginTop: 20,
-    marginBottom: 20,
+    // marginTop: 20,
+    // marginBottom: 20,
+    color: "#00ff00",
+    fontSize: "1.4rem",
+    fontFamily: "Classic Console",
+  },
+  skillcard: {
+    // marginTop: 20,
+    marginBottom: 50,
     color: "#00ff00",
     fontSize: "1.4rem",
     fontFamily: "Classic Console",
