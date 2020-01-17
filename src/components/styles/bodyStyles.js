@@ -36,7 +36,6 @@ export const headbandStyles = makeStyles({
     textDecoration: "none",
     fontFamily: "Classic Console",
     fontSize: "1.8rem",
-    // fontFamily: "American Typewriter",
     "&:hover": {
       background: "#00ff00",
       color: "#000000"
@@ -54,7 +53,6 @@ export const headbandStyles = makeStyles({
 
 export const portfolioStyles = makeStyles({
   project: {
-    // background: "#000000",
     borderTop: "1px solid rgba(0, 255, 0, 0.7)",
     marginTop: 30,
     marginBottom: 20,
@@ -70,13 +68,13 @@ export const portfolioStyles = makeStyles({
   projectDetailsText: {
     color: "#00ff00",
     fontFamily: "Classic Console",
-    fontSize: "1.4rem",
+    fontSize: "1.6rem",
     lineHeight: "1.2"
   },
   projectStack: {
     color: "#00ff00",
     fontFamily: "Classic Console",
-    fontSize: "1.4rem",
+    fontSize: "1.6rem",
     marginTop: 20,
     marginBottom: 40
   },
@@ -92,7 +90,7 @@ export const portfolioStyles = makeStyles({
     color: "#00ff00",
     fontFamily: "Classic Console",
     margin: 10,
-    fontSize: "1.8rem",
+    fontSize: "1.6rem",
     "&:hover": {
       background: "#00ff00",
       color: "#000000"
@@ -112,14 +110,14 @@ export const infoStyles = makeStyles({
   },
   infocard2: {
     color: "#00ff00",
-    fontSize: "1.4rem",
+    fontSize: "1.6rem",
     fontFamily: "Classic Console",
     lineHeight: "1.1"
   },
   skillcard: {
     marginBottom: 50,
     color: "#00ff00",
-    fontSize: "1.4rem",
+    fontSize: "1.6rem",
     fontFamily: "Classic Console",
   },
   skill: {
