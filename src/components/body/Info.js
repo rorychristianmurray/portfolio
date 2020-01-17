@@ -21,7 +21,12 @@ export default props => {
       </Grid>
 
       <Grid item xs={8} className={styles.infocard2}>
-        <div className={styles.infocard2}>
+        <div className={styles.infocard2} style={{
+    color: "#00ff00",
+    fontSize: "1.6rem",
+    fontFamily: "Classic Console",
+    lineHeight: "1.1"
+  }}>
 
         Hi. I'm Rory Murray. I'm a Full Stack Web Developer with a background in
         finance and global markets. My passion is in building tools that help
@@ -35,7 +40,12 @@ export default props => {
       direction="row"
       justify="center"
       alignItems="flex-start"> 
-      <Grid item className={styles.skillcard}>          <ul>
+      <Grid item className={styles.skillcard}>          <ul style={{
+    color: "#00ff00",
+    fontSize: "1.6rem",
+    fontFamily: "Classic Console",
+    lineHeight: "1.1"
+  }}>
             <li className={styles.skill}>HTML/CSS (SCSS/LESS)</li>
             <li className={styles.skill}>JavaScript</li>
             <li className={styles.skill}>React/Redux</li>
