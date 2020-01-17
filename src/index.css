@@ -5,7 +5,7 @@
 } */
 @font-face {
   font-family: "Classic Console";
-  src: local("Classic COnsole"),
+  src: local("Classic Console"),
     url(./fonts/clacon.ttf) format("truetype");
 }
 
