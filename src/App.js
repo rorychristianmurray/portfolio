@@ -8,7 +8,7 @@ import { Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
-  console.log("Welcome to my page!");
+  console.log("You matter.");
   return (
     <div className="App">
       <Route exact path="/" component={Home} />

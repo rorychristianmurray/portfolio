@@ -17,7 +17,7 @@ export default props => {
       className={styles.infoband}
     >
       <Grid item className={styles.infocard1}>
-        <img src={murrpic} />
+        <img src={murrpic} alt="a very handsome man"/>
       </Grid>
 
       <Grid item xs={8} className={styles.infocard2}>

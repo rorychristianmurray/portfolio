@@ -1,5 +1,4 @@
 import React from "react";
-import { Redirect } from "react-router-dom";
 import { Grid, Button } from "@material-ui/core";
 import { headbandStyles } from "../styles/bodyStyles";
 import { Link } from "react-router-dom";
@@ -8,17 +7,17 @@ export default props => {
   const styles = headbandStyles();
   console.log("Headband props", props);
 
-  const togglePort = () => {
-    props.setPortIsOpen(!props.portOpen);
-  };
+  // const togglePort = () => {
+  //   props.setPortIsOpen(!props.portOpen);
+  // };
 
-  const scrollToRef = ref => {
-    window.scrollTo({
-      top: ref,
-      left: 0,
-      behavior: "smooth"
-    });
-  };
+  // const scrollToRef = ref => {
+  //   window.scrollTo({
+  //     top: ref,
+  //     left: 0,
+  //     behavior: "smooth"
+  //   });
+  // };
 
   return (
     <Grid

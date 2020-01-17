@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Headband from "../components/body/Headband.js";
 import Nav from "../components/navigation/Nav";
 
