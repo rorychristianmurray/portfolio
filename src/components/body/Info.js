@@ -21,7 +21,7 @@ export default props => {
       </Grid>
 
       <Grid item xs={8} className={styles.infocard2}>
-        <Typography className={styles.infocard2} variant="subtitle1">
+        <div className={styles.infocard2}>
 
         Hi. I'm Rory Murray. I'm a Full Stack Web Developer with a background in
         finance and global markets. My passion is in building tools that help
@@ -29,24 +29,24 @@ export default props => {
         building communities, particularly at a local level. I build across the
         stack, but have a particular interest in blockchain and back end
         development opportunities. I can be reached via email at rory.christian.murray@gmail.com, on Twitter @therorymurray, or on Github at rorychristianmurray.
-        </Typography>
+        </div>
       </Grid>
       <Grid container
       direction="row"
       justify="center"
-      alignItems="center"> 
+      alignItems="flex-start"> 
       <Grid item className={styles.skillcard}>          <ul>
-            <li>HTML/CSS (SCSS/LESS)</li>
-            <li>JavaScript</li>
-            <li>React/Redux</li>
-            <li>SQL (PostsgreSQL)</li>
-            <li>Java (Spring Framework)</li>
+            <li className={styles.skill}>HTML/CSS (SCSS/LESS)</li>
+            <li className={styles.skill}>JavaScript</li>
+            <li className={styles.skill}>React/Redux</li>
+            <li className={styles.skill}>SQL (PostsgreSQL)</li>
+            <li className={styles.skill}>Java (Spring Framework)</li>
           </ul></Grid>
       <Grid item className={styles.skillcard}>          <ul>
-            <li>Node (Express)</li>
-            <li>Python</li>
-            <li>Django</li>
-            <li>Git</li>
+            <li className={styles.skill}>Node (Express)</li>
+            <li className={styles.skill}>Python</li>
+            <li className={styles.skill}>Django</li>
+            <li className={styles.skill}>Git</li>
           </ul></Grid>
     
       </Grid>

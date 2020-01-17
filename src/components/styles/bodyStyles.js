@@ -71,7 +71,7 @@ export const portfolioStyles = makeStyles({
     color: "#00ff00",
     fontFamily: "Classic Console",
     fontSize: "1.4rem",
-    // marginBottom: 20
+    lineHeight: "1.2"
   },
   projectStack: {
     color: "#00ff00",
@@ -84,7 +84,8 @@ export const portfolioStyles = makeStyles({
     color: "#00ff00",
     fontWeight: 800,
     fontFamily: "Classic Console",
-    fontSize: "1.8rem"
+    fontSize: "1.8rem",
+    marginBottom: 15
   },
   projButton: {
     background: "#000000",
@@ -99,71 +100,31 @@ export const portfolioStyles = makeStyles({
   }
 });
 
-export const showcaseStyles = makeStyles({
-  project: {
-    // border: "1px solid red",
-    height: 500,
-    // background: "#000000",
-    paddingTop: 30,
-    fontFamily: "American Typewriter"
-  },
-  title: {
-    marginTop: 10,
-
-    maxWidth: "40%",
-    marginBottom: 30
-  },
-  projDetails: {
-    maxWidth: "40%",
-    marginBottom: 10
-
-  },
-  projectTitleText: {
-    color: "#F18F01",
-    fontWeight: 800,
-    fontFamily: "American Typewriter"
-  },
-  projectDetailsText: {
-    color: "#F18F01",
-    fontFamily: "American Typewriter"
-  },
-  projBtn: {
-    // border: "1px solid red",
-    background: "#F18F01",
-    margin: 10,
-    paddingLeft: 20,
-    paddingRight: 20,
-    textDecoration: "none",
-    "&:hover": {
-      background: "#F18F01"
-    
-    }
-  }
-});
 
 export const infoStyles = makeStyles({
   infoband: {
     height: "auto",
     fontFamily: "Classic Console"
-
   },
   infocard1: {
     marginTop: 70,
     marginBottom: 20
   },
   infocard2: {
-    // marginTop: 20,
-    // marginBottom: 20,
     color: "#00ff00",
     fontSize: "1.4rem",
     fontFamily: "Classic Console",
+    lineHeight: "1.1"
   },
   skillcard: {
-    // marginTop: 20,
     marginBottom: 50,
     color: "#00ff00",
     fontSize: "1.4rem",
     fontFamily: "Classic Console",
+  },
+  skill: {
+    marginTop: 5,
+    marginBottom: 5
   },
   infotext1: {
     color: "#00ff00"
