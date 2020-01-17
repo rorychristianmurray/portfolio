@@ -70,7 +70,8 @@ export const portfolioStyles = makeStyles({
   projectDetailsText: {
     color: "#00ff00",
     fontFamily: "Classic Console",
-    fontSize: "1.4rem"
+    fontSize: "1.4rem",
+    marginBottom: 20
   },
   projectStack: {
     color: "#00ff00",

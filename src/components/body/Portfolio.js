@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Button } from "@material-ui/core";
+import { Grid, Typography} from "@material-ui/core";
 // import Headband from "./Headband";
 
 import { portfolioStyles } from "../styles/bodyStyles";
@@ -46,7 +46,7 @@ export default props => {
       </Grid>
       <a href="https://grantly-b5b58.firebaseapp.com/"style={{ textDecoration: "none" }}>
         <Grid item>
-          <Button className={styles.projButton}>$ cd murray/portfolio/founder_grants/</Button>
+          <div className={styles.projButton}>$ cd murray/portfolio/founder_grants/</div>
         </Grid>
       </a>
     </Grid>
@@ -65,15 +65,42 @@ export default props => {
       </Grid>
       <Grid item xs={8} >
         <Typography variant="subtitle1" className={styles.projectDetailsText}>
-        I built the server API in Java for the Immunization Tracker app. This includes over 30 endpoints with full CRUD functionality, error handling, docs in Swagger, and authorization utilizing OAuth2. The github can be found <span>here</span>. Change directories below to be taken to deployed API.
+        I built the server API in Java for the Immunization Tracker app. This includes over 30 endpoints with full CRUD functionality, custom error handling, docs in Swagger, and authorization utilizing OAuth2. The github can be found <a href="https://github.com/BWimmunizationtracker/backend" style={{color: "#00ff00"}} >here</a>. Change directories below to be taken to deployed API.
         </Typography>
       </Grid>
       <Grid item xs={8} className={styles.projectStack} >
         Java - Spring - H2 - PostgreSQL - OAuth2
       </Grid>
-      <a href="https://grantly-b5b58.firebaseapp.com/"style={{ textDecoration: "none" }}>
+      <a href="https://rcm-immunization-tracker.herokuapp.com/"style={{ textDecoration: "none" }}>
         <Grid item>
-          <Button className={styles.projButton}>$ cd murray/portfolio/immunization_tracker/</Button>
+          <div className={styles.projButton}>$ cd murray/portfolio/immunization_tracker/</div>
+        </Grid>
+      </a>
+    </Grid>
+    <Grid
+      container
+      item
+      direction="column"
+      justify="center"
+      alignItems="center"
+      className={styles.project}
+    >
+      <Grid item xs={8} className={styles.title}>
+        <Typography variant="subtitle1" className={styles.projectTitleText}>
+          Life GPA
+        </Typography>
+      </Grid>
+      <Grid item xs={8} >
+        <Typography variant="subtitle1" className={styles.projectDetailsText}>
+        Life GPA is an app that lets you track your habits across different categories providing real time scores. I worked with another FE dev to develop multiple data dashboards that update with user input. It has CRUD functionality for maintaining lists of habits with a colorized category system, and interactive habit checkoff system. The repo can be found <a href="https://github.com/lifegpa-lambda/Front-End" style={{color: "#00ff00"}} >here</a>. Change directories below to be taken to deployed app.
+        </Typography>
+      </Grid>
+      <Grid item xs={8} className={styles.projectStack} >
+        React - Redux - JavaScript - HTML - CSS
+      </Grid>
+      <a href="https://lifegpa-app.netlify.com/"style={{ textDecoration: "none" }}>
+        <Grid item>
+          <div className={styles.projButton}>$ cd murray/portfolio/life_gpa/</div>
         </Grid>
       </a>
     </Grid>

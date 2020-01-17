@@ -1,11 +1,10 @@
 import React from "react";
-import { Grid, Button } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import { headbandStyles } from "../styles/bodyStyles";
 import { Link } from "react-router-dom";
 
-export default props => {
+export default () => {
   const styles = headbandStyles();
-  console.log("Headband props", props);
 
   // const togglePort = () => {
   //   props.setPortIsOpen(!props.portOpen);
@@ -47,7 +46,7 @@ export default props => {
           className={styles.headbandLink}
           style={{ textDecoration: "none" }}
         >
-          <Button className={styles.headbandBtn}>$ cd murray/portfolio</Button>
+          <div className={styles.headbandBtn}>$ cd murray/portfolio</div>
         </Link>
       </Grid>
     </Grid>
