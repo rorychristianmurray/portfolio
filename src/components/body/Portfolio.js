@@ -31,7 +31,7 @@ export default props => {
       </Grid>
       <Grid item xs={8} >
         <Typography variant="subtitle1" className={styles.projectDetailsText}>
-        Completed during Lambda School Labs16 with a team of three other Web Developers and two UX Designers, Founder Grants is a central repository where early-stage founders can search for applicable grants. Utilizes a user-moderated curation model. The github for the front end can be found <a href="https://github.com/Lambda-School-Labs/startup-grant-database-fe">here</a>, while the back end can be found <a href="https://github.com/Lambda-School-Labs/startup-grant-database-fe">here</a>. Change directories below to access the deployed web app.
+        Completed during Lambda School Labs16 with a team of three other Web Developers and two UX Designers, Founder Grants is a central repository where early-stage founders can search for applicable grants. Utilizes a user-moderated curation model. The github for the front end can be found <a href="https://github.com/Lambda-School-Labs/startup-grant-database-fe" style={{color: "#00ff00"}}>here</a>, while the back end can be found <a href="https://github.com/Lambda-School-Labs/startup-grant-database-be" style={{color: "#00ff00"}}>here</a>. Change directories below to access the deployed web app.
         </Typography>
       </Grid>
       <Grid item xs={8} className={styles.projectStack} >
@@ -44,7 +44,7 @@ export default props => {
           <li>Material UI</li>
         </ul> */}
       </Grid>
-      <a href="https://github.com/Lambda-School-Labs/startup-grant-database-fe"style={{ textDecoration: "none" }}>
+      <a href="https://grantly-b5b58.firebaseapp.com/"style={{ textDecoration: "none" }}>
         <Grid item>
           <Button className={styles.projButton}>$ cd murray/portfolio/founder_grants/</Button>
         </Grid>
