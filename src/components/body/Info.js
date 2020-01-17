@@ -1,14 +1,9 @@
 import React from "react";
-// import { Redirect } from "react-router-dom";
 import { Grid,Typography } from "@material-ui/core";
 import { infoStyles } from "../styles/bodyStyles";
-// import { Link } from "react-router-dom";
-// import murrpic from "../../assets/murray_gh_edited.jpg";
-// import murrpic from "../../assets/murray_gh_edited"
 import murrpic from "../../assets/murray_gh_edited.jpeg"
 
 // maybe do a running stock ticker at the bottom??
-
 
 export default props => {
   const styles = infoStyles();

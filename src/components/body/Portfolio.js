@@ -52,7 +52,7 @@ export default props => {
         </Grid>
       </a>
     </Grid>
-          <Grid
+    <Grid
       container
       item
       direction="column"
@@ -72,17 +72,10 @@ export default props => {
       </Grid>
       <Grid item xs={8} className={styles.projectStack} >
         React - Redux - Node / Express - PostgreSQL - Material UI
-        {/* <ul className={styles.projectDetailsText}>
-          <li>React</li>
-          <li>Redux</li>
-          <li>Node / Express</li>
-          <li>PostgreSQL</li>
-          <li>Material UI</li>
-        </ul> */}
       </Grid>
       <a href="https://github.com/Lambda-School-Labs/startup-grant-database-fe"style={{ textDecoration: "none" }}>
         <Grid item>
-          <Button className={styles.projButton}>$ cd murray/portfolio/founder_grants/</Button>
+          <Button className={styles.projButton}>$ cd murray/portfolio/immunization_tracker/</Button>
         </Grid>
       </a>
     </Grid>
