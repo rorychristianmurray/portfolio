@@ -13,15 +13,14 @@ export const navStyles = makeStyles({
   navtext: {
     color: "#00ff00",
     fontSize: "1.8rem",
-    marginRight: 30
+    marginRight: 30,
+    "&:hover": {
+      background: "#00ff00",
+      color: "#000000"
+    }
   },
   navlink: {
     textDecoration: "none"
   },
-  navfootie: {
-    // background: "#000000",
-    borderTop: "2px solid #E4572E",
-    borderRadius: 2,
-    height: 30
-  }
+
 });
