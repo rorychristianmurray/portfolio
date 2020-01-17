@@ -57,7 +57,7 @@ export const portfolioStyles = makeStyles({
     // background: "#000000",
     borderTop: "1px solid rgba(0, 255, 0, 0.7)",
     marginTop: 30,
-    marginBottom: 30,
+    marginBottom: 20,
     fontFamily: "Classic Console",
 
   },
@@ -71,14 +71,14 @@ export const portfolioStyles = makeStyles({
     color: "#00ff00",
     fontFamily: "Classic Console",
     fontSize: "1.4rem",
-    marginBottom: 20
+    // marginBottom: 20
   },
   projectStack: {
     color: "#00ff00",
     fontFamily: "Classic Console",
     fontSize: "1.4rem",
     marginTop: 20,
-    marginBottom: 20
+    marginBottom: 40
   },
   projectTitleText: {
     color: "#00ff00",
