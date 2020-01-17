@@ -1,7 +1,12 @@
-@font-face {
+/* @font-face {
   font-family: "American Typewriter";
   src: local("American Typewriter"),
     url(./fonts/American-Typewriter-Regular.ttf) format("truetype");
+} */
+@font-face {
+  font-family: "Classic Console";
+  src: local("Classic COnsole"),
+    url(./fonts/clacon.ttf) format("truetype");
 }
 
 body {
