@@ -62,16 +62,16 @@ export default props => {
     >
       <Grid item xs={8} className={styles.title}>
         <Typography variant="subtitle1" className={styles.projectTitleText}>
-          Founder Grants
+          Immunization Tracker
         </Typography>
       </Grid>
       <Grid item xs={8} >
         <Typography variant="subtitle1" className={styles.projectDetailsText}>
-        Completed during Lambda School Labs16 with a team of three other Web Developers and two UX Designers, Founder Grants is a central repository where early-stage founders can search for applicable grants. Utilizes a user-moderated curation model.
+        I built the server API in Java for the Immunization Tracker app. This includes over 30 endpoints with full CRUD functionality, error handling, docs in Swagger, and authorization utilizing OAuth2.
         </Typography>
       </Grid>
       <Grid item xs={8} className={styles.projectStack} >
-        React - Redux - Node / Express - PostgreSQL - Material UI
+        Java - Spring - H2 - PostgreSQL - OAuth2
       </Grid>
       <a href="https://github.com/Lambda-School-Labs/startup-grant-database-fe"style={{ textDecoration: "none" }}>
         <Grid item>
