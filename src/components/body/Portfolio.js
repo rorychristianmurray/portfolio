@@ -68,7 +68,7 @@ export default props => {
     fontFamily: "Classic Console",
     lineHeight: "1.1"
   }}>
-        I built the server API in Java for the Immunization Tracker app. This includes over 30 endpoints with full CRUD functionality, custom error handling, docs in Swagger, and authorization utilizing OAuth2. The github can be found <a href="https://github.com/BWimmunizationtracker/backend" style={{color: "#00ff00"}} >here</a>. Change directories below to be taken to the link to the deployed API. For information on accessing the API please see the repo above or contact me directly.
+        I built the server API in Java for the Immunization Tracker app. The API implementation includes over 30 endpoints consisting of the full range of CRUD functionality, with custom error handling, docs in Swagger, and authorization utilizing OAuth2. The github can be found <a href="https://github.com/BWimmunizationtracker/backend" style={{color: "#00ff00"}} >here</a>. Change directories below to be taken to the link to the deployed API. For information on accessing the API please see the repo above or contact me directly.
         </div>
       </Grid>
       <Grid item xs={8} className={styles.projectStack} >
