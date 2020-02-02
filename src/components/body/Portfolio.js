@@ -100,7 +100,7 @@ export default props => {
     fontFamily: "Classic Console",
     lineHeight: "1.1"
   }}>
-        Life GPA is an app that lets you track your habits across different categories providing real time scores. I worked with another FE dev to develop multiple data dashboards that update with user input. It has CRUD functionality for maintaining lists of habits with a colorized category system, and interactive habit checkoff system. The repo can be found <a href="https://github.com/lifegpa-lambda/Front-End" style={{color: "#00ff00"}} >here</a>. Change directories below to be taken to deployed app.
+        Life GPA is an app that lets a user track their habits across different categories while providing real time scores based on completion. I worked with another FE dev to develop multiple data dashboards that update with user input. The app has CRUD functionality for maintaining lists of habits with a colorized category system, and an interactive habit checkoff system. The repo can be found <a href="https://github.com/lifegpa-lambda/Front-End" style={{color: "#00ff00"}} >here</a>. Change directories below to be taken to deployed app.
         </div>
       </Grid>
       <Grid item xs={8} className={styles.projectStack} >
