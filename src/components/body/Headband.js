@@ -28,16 +28,12 @@ export default () => {
     >
       <Grid container item justify="center" className={styles.headbandcard1}>
         <Grid item xs={8} className={styles.headbandtext1}>
-          Hi. I'm Rory. I'm a Full Stack Human as well as a Web Developer and Software Engineer during about
-          1/2 to 2/3 of the preponderance of my days.
+          Hi. I'm Rory. I'm a Full Stack Human, Web Developer and Software Engineer.
         </Grid>
       </Grid>
       <Grid container item justify="center" className={styles.headbandcard2}>
         <Grid item xs={8} className={styles.headbandtext2}>
-          I'm really glad you stopped by. I made this site to speak to and show
-          a bit of what I like to do. If you think it might intersect with
-          what you like to do, or you just wanna know more I'd love to hear from
-          you.
+          I'm really glad you stopped by. Please change directories into my portfolio folder below, or make another navigation selection from the top menu bar.
         </Grid>
       </Grid>
       <Grid item>
